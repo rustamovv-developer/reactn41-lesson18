@@ -1,0 +1,25 @@
+.container,
+.container-808,
+.container-872,
+.container-1064 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.container-808 {
+  max-width: 808px;
+}
+
+.container-872 {
+  max-width: 872px;
+}
+
+.container-1064 {
+  max-width: 1064px;
+}
