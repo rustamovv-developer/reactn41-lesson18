@@ -1,3 +1,6 @@
+#event {
+  padding: 96px 0px;
+}
 .event__top {
   display: flex;
   align-items: center;
@@ -130,13 +133,13 @@
     font-size: 35px;
   }
 }
-@media(min-width: 1200px){
-    .event__card,
-    .event__card__all{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        text-align-last: left;
-        gap: 24px;
-    }
+@media (min-width: 1200px) {
+  .event__card,
+  .event__card__all {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align-last: left;
+    gap: 24px;
+  }
 }

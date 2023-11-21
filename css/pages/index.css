@@ -388,15 +388,18 @@
   }
 }
 @media (max-width: 500px) {
-  .about__home__img,
   .services__img,
   .don__black__img {
     width: 100%;
     margin: 20px;
   }
+  .about__home__img{
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
-  .header__title {
+  .header__title,
+  .left__title {
     font-size: 35px;
   }
   .header__buttons {
