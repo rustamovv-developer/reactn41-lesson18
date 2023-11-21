@@ -1,3 +1,6 @@
+#news{
+  background-color: #000;
+}
 .news-line {
   display: flex;
   align-items: center;

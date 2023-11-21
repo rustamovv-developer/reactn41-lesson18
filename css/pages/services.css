@@ -133,13 +133,15 @@
 }
 
 .tree {
-  border: 1px solid red;
   background-color: black;
-  /* background-image: url(../../assets/images/section-tree.png); */
+  background: url(../../assets/images/home-9.png)no-repeat center/cover;
+}
+.tree:nth-child(3){
+  background: url(../../assets/images/home-11.png)no-repeat center/cover;
 }
 
 .trees__img {
-  background-image: url(../../assets/images/section-tree.png);
+  background: url(../../assets/images/home-10.png)no-repeat center/cover;
 }
 
 .tree h4 {

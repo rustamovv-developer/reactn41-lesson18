@@ -1,0 +1,37 @@
+.dark body,
+.dark nav,
+.dark main,
+.dark footer,
+.dark #donation,
+.dark #about,
+.dark #services,
+.dark .don__black,
+.dark #news,
+.dark .news,
+.dark #event,
+.dark #info,
+.dark .Environment{
+  background: #000;
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark a {
+  color: #fff;
+}
+.dark nav svg g path {
+  fill: white;
+}
+.dark #navbar.navbar-shrink {
+  background-color: var(--black);
+  box-shadow: 0px 0px 10px 5px white;
+}
+.dark .nav__link:hover {
+  opacity: 0.7;
+  color: #fff;
+}
+.dark .header__btn,
+.donate__link {
+    color: black !important;
+}
