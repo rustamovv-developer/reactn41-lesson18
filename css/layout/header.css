@@ -1,0 +1,31 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px 0px;
+  background-color: var(--white);
+  z-index: 99;
+  transition: all 500ms;
+}
+.nav__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo__svg {
+  max-width: 122px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav__link {
+  color: var(--secondary-text);
+  font-family: "Roboto500";
+  font-size: 16px;
+  transition: all 500ms;
+}
+.nav__link:hover {
+  color: #0b0706;
+}

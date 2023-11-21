@@ -1,3 +1,6 @@
-:root {
-  --green-color: #70c174;
+:root{
+  --primary-text: #1D2130;
+  --secondary-text: #525560;
+  --white: #FFFFFF;
+  --black: #000000;
 }
