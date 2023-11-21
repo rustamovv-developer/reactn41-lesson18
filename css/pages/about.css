@@ -3,6 +3,7 @@
 @import "../modules/donate.css";
 @import "../modules/news.css";
 @import "../modules/events.css";
+@import "../base/fonts.css";
 
 
 * {
@@ -43,18 +44,15 @@ html{
 
 .about__top__1__title{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .about__top__left__title{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -63,7 +61,7 @@ html{
 
 .about__top__right__p1{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: 'Roboto700';
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -72,7 +70,7 @@ html{
 
 .about__top__right__p2{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto400";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -109,7 +107,7 @@ html{
 
 .info__name{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -120,7 +118,7 @@ html{
 
 .info__title{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -129,7 +127,7 @@ html{
 
 .info__p{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto400";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -142,7 +140,7 @@ html{
 
 .info__bottom__name{
     color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
+    font-family: "Roboto500";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -166,7 +164,7 @@ html{
 .rewards__top__title{
     color: var(--Primary-text, #1D2130);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -186,7 +184,7 @@ html{
 .rewadrs__item__h4{
     color: var(--Primary-text, #1D2130);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -196,7 +194,7 @@ html{
 .rewadrs__item__h5{
     color: var(--Primary-text, #1D2130);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -206,7 +204,7 @@ html{
 .rewadrs__item__h6{
     color: var(--Primary-text, #1D2130);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto500";
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -221,7 +219,7 @@ html{
 
 .statistic__left__name h4{
     color: #FFF;
-    font-family: Roboto;
+    font-family: "Roboto700";
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -364,111 +362,6 @@ html{
     font-size: 23px;
 }
 
-.event__top{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.event__top h2{
-    color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 140%;
-}
-
-.event__top div{
-    width: 88%;
-    height: 1px;
-    background-color: grey;
-}
-
-.event__bottom{
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-}
-
-.event__card__all{
-    display: flex;
-    gap: 10px;
-}
-
-.event__card{
-    display: flex;
-    justify-content: space-between;
-    background: var(--Green-secondary, #BEF3C0);
-    padding: 30px;
-    gap: 20px;
-    border-radius: 10px;
-}
-
-.event__card__left h3{
-    color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    font-variant: small-caps;
-}
-
-.event__card__left h5{
-    color: var(--Primary-text, #1D2130);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.event__card__center div{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.event__card__center div h4{
-    color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.event__card__center div div{
-    width: 50px;
-    height: 2px;
-    background-color: black;
-}
-
-.event__card__center p{
-    color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 5px;
-}
-
-.event__card__right i{
-    font-size: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 50%;
-    margin-top: 20px;
-    cursor: pointer;
-    margin-left: 15px;
-}
-
 @media (min-width: 600px){
     .about__top__2{
         display: flex;
@@ -521,20 +414,6 @@ html{
 
     .info__top{
         padding-top: 150px;
-    }
-
-    .event__bottom{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .event__card__center div h4{
-        font-size: 15px;
-    }
-
-    .event__card__center p{
-        font-size: 35px;
     }
 }
 

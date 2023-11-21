@@ -1,0 +1,142 @@
+.event__top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 48px;
+}
+
+.event__top h2 {
+  width: 194px;
+  color: var(--Primary-text, #1d2130);
+  font-family: "Roboto500";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.event__top div {
+  width: 88%;
+  height: 1px;
+  background-color: grey;
+}
+
+.event__bottom {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.event__card__all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.event__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--Green-secondary, #bef3c0);
+  padding: 30px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.event__card__left h3 {
+  color: var(--Primary-text, #1d2130);
+  font-family: "Roboto500";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+
+.event__card__left h5 {
+  color: var(--Primary-text, #1d2130);
+  text-align: center;
+  font-family: "Roboto500";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.event__card__center div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.event__card__center div h4 {
+  color: var(--Primary-text, #1d2130);
+  font-family: "Roboto500";
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.event__card__center div div {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.event__card__center p {
+  color: var(--Primary-text, #1d2130);
+  font-family: "Roboto700";
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.event__card__right i {
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.hr {
+  display: none;
+}
+@media (min-width: 520px) {
+  .hr {
+    display: block;
+    max-width: 1062px;
+    height: 1px;
+    background-color: #e5e5e5e5;
+  }
+}
+@media (min-width: 1100px) {
+  .event__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .event__card__center div h4 {
+    font-size: 15px;
+  }
+
+  .event__card__center p {
+    font-size: 35px;
+  }
+}
+@media(min-width: 1200px){
+    .event__card,
+    .event__card__all{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align-last: left;
+        gap: 24px;
+    }
+}
