@@ -1,56 +1,5 @@
 @import "../base/global.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.5s ease;
-}
-html{
-  scroll-behavior:smooth;
-}
-*, *::after, *::before{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  transition: .5s ease;
-}
-body{
-  position: relative;
-  transition: .5s;
-}
-ul, ol, li{
-  list-style-type: none;
-}
-a{
-  text-decoration: none;
-}
-button {
-    cursor: pointer;
-    border: none;
-    white-space: nowrap;
-}
-:root{
-  --Roboto: "Roboto", sans-serif;
-  --Primary-text: #1D2130;
-  --Secondary-text: #525560;
-  --Off-white: #EBF0F9;
-  --Green-primary: #70C174;
-}
-.container{
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.container-808{
-  max-width: 808px;
-  width: 100%;
-  margin: 0 auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 /* START CONTACT SECTION STYLE */
 .project__line{
   display: flex;
