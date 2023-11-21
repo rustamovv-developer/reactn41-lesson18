@@ -1,2 +1,217 @@
 @import "../base/global.css";
-@import "../modules/donate.css";
+
+/* HOME START */
+
+#home {
+    background-color: #EFF7F2;
+}
+
+.home {
+    padding: 96px 20px;
+}
+
+.home-line {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.home-line h4 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.home-left h1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.home-left p {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 32px;
+}
+
+.home-left button {
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px;
+    background-color: #70C174;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.home-left button:hover {
+    background-color: #70c100;
+}
+
+.home-right img {
+    width: 100%;
+}
+
+
+/* HOME END */
+
+/* PROTECT START */
+
+.protect {
+    padding: 96px 20px;
+    border-bottom: 1px solid;
+}
+
+.protect-left h2 {
+    color: var(--b, #1D2130);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.protect-left p {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.protect-right {
+}
+
+.protect__right__inform {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.protect__right__inform h4 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.protect-right img {
+    margin-bottom: 30px;
+}
+
+.protect-right p {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.protect-p {
+    margin-bottom: 15px;
+}
+
+/* PROTECT END */
+
+
+/* DONATION START */
+
+.donation {
+    padding-top: 96px;
+}
+
+.donation h2 {
+    color: var(--b, #1D2130);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.donation p {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 50px;
+}
+
+/* DONATION END */
+
+
+/* RESPONS START */
+
+@media (min-width: 900px) {
+    .home-left h1 {
+        font-size: 56px;
+    }
+
+    .home-left p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .home {
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-right img {
+        width: 480px;
+    }
+    .protect {
+        display: flex;
+        justify-content: space-between;
+    }
+    .protect__right__inform h4 {
+        margin-left: 23px;
+    }
+    .donation-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    .donation-text h2 {
+        width: 374px;
+    }
+    .donation-text p {
+        width: 338px;
+    }
+    .donation-p {
+        width: 374px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-left h1,
+    .home-left p,
+    .home-btn {
+        margin-left: 93px;
+    }
+    .home-left p {
+        width: 517px;
+    }
+    .protect-left p {
+        width: 592px;
+    }
+    .protect-right p {
+        width: 592px;
+    }
+}
+
+/* RESPONS END */
+

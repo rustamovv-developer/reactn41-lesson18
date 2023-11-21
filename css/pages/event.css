@@ -1,1 +1,170 @@
 @import "../base/global.css";
+@import "../modules/donate.css";
+
+/* HOME START */
+
+#home {
+    background-color: #EFF7F2;
+}
+
+.home {
+    padding: 96px 20px;
+}
+
+.home h1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.date__and__location p {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* HOME END */
+
+/* ABOUT START */
+
+.about {
+    padding: 96px 20px;
+}
+
+.about p {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.about p:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.about p:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.about img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* ABOUT END */
+
+
+/* EVENT START */
+
+.event-title {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.long-line {
+    display: none;
+}
+
+.event-card {
+    padding: 40px 48px 40px;
+    background-color: #BEF3C0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sep, 
+.next-event,
+.event-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-card h1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    font-variant: small-caps;
+}
+
+.event-card p {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.next-event h3 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.event-card h2 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.event-btn {
+    text-align: center;
+}
+
+.arrow {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* EVENT END */
+
+
+
+/* RESPONS START */
+
+@media (min-width: 800px) {
+    .date__and__location {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .location {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+/* RESPONS END */
