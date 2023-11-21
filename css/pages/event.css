@@ -144,7 +144,10 @@
     padding: 10px;
     border-radius: 30px;
 }
-
+.event{
+    display: flex;
+    flex-direction: column;
+}
 /* EVENT END */
 
 

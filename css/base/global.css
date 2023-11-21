@@ -7,6 +7,9 @@
 @import "../layout/header.css";
 @import "../layout/footer.css";
 @import "../modules/donate.css";
+@import "../modules/events.css";
+@import "../modules/news.css";
+@import "../modules/projects.css";
 
 @import "./reset.css";
 @import "../themes/dark.css";

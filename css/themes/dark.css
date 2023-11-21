@@ -35,3 +35,16 @@
 .donate__link {
     color: black !important;
 }
+.dark #backtop{
+  box-shadow: 0px 0px 10px 5px white;
+}
+.dark .open{
+  background-color: transparent;
+  color: white;
+}
+.dark #navbar-responsive{
+  background: #000;
+}
+.dark .close{
+  color: white;
+}

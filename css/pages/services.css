@@ -133,6 +133,7 @@
 }
 
 .tree {
+  margin-bottom: 96px;
   background-color: black;
   background: url(../../assets/images/home-9.png)no-repeat center/cover;
 }
