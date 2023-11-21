@@ -3,9 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson 18 | Contact | By maksgit</title>
+  <link rel="stylesheet" href="../css/pages/contact.css">
+  <title>Lesson 18 | Contact | By maks</title>
 </head>
 <body>
-  
+  <main>
+    <!-- START CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__left">
+            <div class="project__line">
+              <img src="../assets/images/chiziq.png" alt="line img">
+              <p class="line__title">Our project</p>
+            </div>
+            <div class="contact__desc left">
+              <h1 class="contact__desc__title">We'd love to hear <br> from you</h1>
+              <p class="contact__desc__text">Have any question in mind or want to enquire? Please feel free to contact us through the form or the following details.</p>
+            </div>
+          </div>
+          <div class="contact__right right">
+            <div class="contact__right__list">
+              <h2>Let's talk!</h2>
+                <div class="contact__right__link">
+                  <a href="#">+998915056677</a>
+                  <a href="#">hello@finsweet.com</a>
+                </div>
+            </div>
+            <div class="contact__right__list">
+              <h2>Headoffice</h2>
+                <div class="contact__right__link">
+                  <a href="#">8 Brewery Drive, Hudson, NH 03051 <br> USA</a>
+                </div>
+            </div>
+            <div class="contact__right__list">
+              <h2>Branch Office</h2>
+                <div class="contact__right__link">
+                  <a href="#">178 Marconi St., Venice, 34293 <br> Italy</a>
+                </div>
+            </div>
+             <div class="contact__icon">
+                 <a href="https://myurls.co/maks_0401" target="_blank" class="contact__icon__link">
+                  <img src="../assets/images/facebook.svg" alt="facebook icon">
+                 </a>
+                  <a href="https://myurls.co/maks_0401" target="_blank" class="contact__icon__link">
+                    <img src="../assets/images/twitter.svg" alt="twitter icon">
+                  </a>
+                  <a href="https://myurls.co/maks_0401" target="_blank" class="contact__icon__link">
+                    <img src="../assets/images/instagramm.svg" alt="instagram icon">
+                  </a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START  FORM SECTION -->
+    <section class="form" id="form">
+      <div class="container-808">
+        <form autocomplete="off" target="_blank">
+          <div class="name">
+            <div class="firstname">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" placeholder="Enter Your name" required/>
+            </div>
+            <div class="lastname">
+              <label for="lasname">Last Name</label>
+              <input type="text" id="lasname" name="lasname" placeholder="Enter Your lastname" required/>
+            </div>
+          </div>
+          <div class="name">
+            <div class="firstname">
+              <label for="email">Email Id</label>
+              <input type="email" id="email" name="email" placeholder="Enter Your email" oninvalid="this.setCustomValidity('Enter email')" required/>
+            </div>
+            <div class="lastname">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required/>
+            </div>
+          </div>
+            <div class="textarea-box">
+            <label for="message">Message</label>
+            <textarea
+              placeholder="Type your Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+        </form>
+        <a href="#" class="primary__btn">Send message</a>
+      </div>
+    </section>
+    <!-- START MAP SECTION -->
+    <section class="map" id="map">
+       <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11992.72885232603!2d69.20430054999999!3d41.28313865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1sen!2s!4v1699445242798!5m2!1sen!2s"
+      width="100%"
+      height="500"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    </section>
+  </main>
 </body>
 </html>
