@@ -207,8 +207,215 @@
 .services__card__text {
   max-width: 384px;
   color: var(--secondary-text);
-  font-family: 'Roboto400';
+  font-family: "Roboto400";
   font-size: 16px;
-  line-height: 160%; 
+  line-height: 160%;
 }
 /* services end */
+
+/* donation start */
+#donation {
+  padding: 96px 0px;
+  background-color: var(--white);
+}
+.don__center {
+  padding: 96px 0px;
+}
+.don__center__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.don__center__card {
+  max-width: 411px;
+  height: 421px;
+  padding: 80px 48px 48px;
+  border-radius: 12px;
+  background: url(../../assets/images/home-9.png) no-repeat center/cover;
+  opacity: 0.8;
+}
+.don__center__card:nth-child(2) {
+  background: url(../../assets/images/home-10.png) no-repeat center/cover;
+}
+.don__center__card:nth-child(3) {
+  background: url(../../assets/images/home-11.png) no-repeat center/cover;
+}
+.don__center__title {
+  max-width: 315px;
+  color: var(--white);
+  font-family: "Roboto700";
+  font-size: 28px;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.don__center__text {
+  max-width: 315px;
+  color: var(--white);
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 64px;
+}
+.don__center__btn {
+  color: var(--primary-text);
+  font-family: "Roboto500";
+  font-size: 16px;
+  padding: 16px 32px;
+  background-color: var(--white);
+  border-radius: 4px;
+}
+.don__black {
+  background: #0b0706;
+  padding: 96px 0px;
+}
+.don__black__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.don__black__card {
+  display: flex;
+  flex-direction: column;
+}
+.don__black__title {
+  max-width: 611px;
+  color: var(--white);
+  font-family: "Roboto700";
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.don__black__text {
+  max-width: 606px;
+  color: var(--white);
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.don__colors {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.don__color {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #bef3c0;
+}
+.color2 {
+  background: #ac94f1;
+}
+.color3 {
+  background: #fff0ca;
+}
+.color4 {
+  background: #f9cf64;
+}
+.color5 {
+  background: #f38fbf;
+}
+.color__text {
+  color: var(--white);
+  font-family: "Roboto500";
+  font-size: 16px;
+  line-height: 160%;
+}
+/* donation end */
+
+/* responsive start */
+@media (max-width: 1300px) {
+  .don__center__box {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 1100px) {
+  .about__exam,
+  .services__exam,
+  .services__center {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .left__hr {
+    display: none;
+  }
+  .don__black__box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .about__images {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .nav__list {
+    display: none;
+  }
+  .open {
+    display: block;
+    color: black;
+    font-size: 25px;
+  }
+}
+@media (max-width: 670px) {
+  .header__column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header__row {
+    display: none;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  .don__colors {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .about__home__img,
+  .services__img,
+  .don__black__img {
+    width: 100%;
+    margin: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .header__title {
+    font-size: 35px;
+  }
+  .header__buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .don__center__btn {
+    display: none;
+  }
+}

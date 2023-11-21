@@ -83,7 +83,6 @@ ul {
 }
 .open {
   display: none;
-  color: black;
 }
 .res-nav__list {
   display: flex;
@@ -94,6 +93,10 @@ ul {
 }
 .res-nav__link {
   color: #000;
-  font-family: "Poppins500";
+  font-family: "Roboto500";
   font-size: 40px;
+  transition: all 500ms;
+}
+.res-nav__link:hover{
+  opacity: 0.8;
 }

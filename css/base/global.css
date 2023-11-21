@@ -1,6 +1,5 @@
 @import "./fonts.css";
 @import "../themes/variables.css";
-@import "./reset.css";
 
 @import "../modules/backtop.css";
 
@@ -8,4 +7,5 @@
 @import "../layout/header.css";
 @import "../layout/footer.css";
 
+@import "./reset.css";
 @import "../themes/dark.css";
