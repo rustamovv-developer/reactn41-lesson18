@@ -100,3 +100,14 @@ ul {
 .res-nav__link:hover{
   opacity: 0.8;
 }
+
+@media (max-width: 800px) {
+  .nav__list {
+    display: none;
+  }
+  .open {
+    display: block;
+    color: black;
+    font-size: 25px;
+  }
+}

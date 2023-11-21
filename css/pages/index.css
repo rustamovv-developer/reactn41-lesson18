@@ -367,16 +367,6 @@
     gap: 30px;
   }
 }
-@media (max-width: 800px) {
-  .nav__list {
-    display: none;
-  }
-  .open {
-    display: block;
-    color: black;
-    font-size: 25px;
-  }
-}
 @media (max-width: 670px) {
   .header__column {
     justify-content: center;

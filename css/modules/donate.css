@@ -1,0 +1,73 @@
+.donate {
+  padding: 96px 20px;
+}
+
+.donate__img {
+  background: url(../../assets/images/donate-background-img.png) no-repeat
+    center;
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donate__title {
+  max-width: 631px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto700";
+  font-size: 38px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.donate__link__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donate__btn {
+  color: #fff;
+  text-align: right;
+  font-family: 'Roboto500';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  background-color: #70c174;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.donate__btn:hover {
+  background-color: #70c100;
+}
+
+.donate__link {
+  color: var(--Primary-text, #1d2130);
+  text-align: right;
+  font-family: 'Roboto500';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.donate__link:hover {
+  background-color: #1d2130;
+  color: white;
+}
+
+
+@media (min-width: 600px) {
+  .donate__link__btn {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .donate__btn {
+    margin-bottom: 0;
+  }
+}
